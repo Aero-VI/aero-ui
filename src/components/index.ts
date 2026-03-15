@@ -23,7 +23,14 @@ export type { AeroCheckboxProps } from './AeroCheckbox/types';
 export type { AeroTooltipProps, TooltipPlacement } from './AeroTooltip/types';
 export type { AeroIconButtonProps } from './AeroIconButton/types';
 
-// Layout
+// Layout — implementations
+export { AeroAppBar, default as AeroAppBarDefault } from './AeroAppBar/AeroAppBar';
+export { AeroSidebar, default as AeroSidebarDefault } from './AeroSidebar/AeroSidebar';
+export { AeroFolderItem, default as AeroFolderItemDefault } from './AeroFolderItem/AeroFolderItem';
+export { AeroDrawer, default as AeroDrawerDefault } from './AeroDrawer/AeroDrawer';
+export { AeroSplitView, default as AeroSplitViewDefault } from './AeroSplitView/AeroSplitView';
+
+// Layout — types
 export type { AeroAppBarProps } from './AeroAppBar/types';
 export type { AeroSidebarProps } from './AeroSidebar/types';
 export type { AeroDrawerProps, DrawerAnchor, DrawerVariant } from './AeroDrawer/types';
