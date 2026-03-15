@@ -1,12 +1,20 @@
 /**
- * AeroMail UI — Component Type Barrel Export
+ * AeroMail UI — Component Barrel Export
  * @package @aero-vi/aero-ui
  *
- * Exports all component prop interfaces.
- * No implementation — types only.
+ * Exports all component prop interfaces and implementations.
  */
 
-// Primitives
+// Primitives — implementations
+export { AeroButton, default as AeroButtonDefault } from './AeroButton/AeroButton';
+export { AeroAvatar, default as AeroAvatarDefault } from './AeroAvatar/AeroAvatar';
+export { AeroBadge, default as AeroBadgeDefault } from './AeroBadge/AeroBadge';
+export { AeroChip, default as AeroChipDefault } from './AeroChip/AeroChip';
+export { AeroCheckbox, default as AeroCheckboxDefault } from './AeroCheckbox/AeroCheckbox';
+export { AeroIconButton, default as AeroIconButtonDefault } from './AeroIconButton/AeroIconButton';
+export { AeroTooltip, default as AeroTooltipDefault } from './AeroTooltip/AeroTooltip';
+
+// Primitives — types
 export type { AeroButtonProps } from './AeroButton/types';
 export type { AeroAvatarProps, AeroAvatarSize } from './AeroAvatar/types';
 export type { AeroBadgeProps } from './AeroBadge/types';

@@ -32,5 +32,8 @@ export {
   getAvatarColor,
 } from './tokens';
 
+// Utils
+export { getAvatarColor as getAvatarColorUtil } from './utils/avatarColor';
+
 // Library version
 export const AERO_UI_VERSION = '2.0.0';
