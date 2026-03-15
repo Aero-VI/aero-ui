@@ -36,7 +36,15 @@ export type { AeroSidebarProps } from './AeroSidebar/types';
 export type { AeroDrawerProps, DrawerAnchor, DrawerVariant } from './AeroDrawer/types';
 export type { AeroSplitViewProps } from './AeroSplitView/types';
 
-// Mail Domain
+// Mail Domain — implementations
+export { AeroMailRow, default as AeroMailRowDefault } from './AeroMailRow/AeroMailRow';
+export { AeroMailList, default as AeroMailListDefault } from './AeroMailList/AeroMailList';
+export { AeroMessageCard, default as AeroMessageCardDefault } from './AeroMessageCard/AeroMessageCard';
+export { AeroThreadView, default as AeroThreadViewDefault } from './AeroThreadView/AeroThreadView';
+export { AeroComposeModal, default as AeroComposeModalDefault } from './AeroComposeModal/AeroComposeModal';
+export { AeroSearchBar, default as AeroSearchBarDefault } from './AeroSearchBar/AeroSearchBar';
+
+// Mail Domain — types
 export type { AeroMailRowProps } from './AeroMailRow/types';
 export type { AeroMailListProps, BulkAction } from './AeroMailList/types';
 export type { AeroThreadViewProps, ReplyPayload, ForwardPayload } from './AeroThreadView/types';
