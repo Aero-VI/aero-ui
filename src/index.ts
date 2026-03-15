@@ -1,13 +1,36 @@
-// AeroMail UI Component Library — Phase 2 will add components here
-export const AERO_UI_VERSION = '1.0.0';
-export const DESIGN_TOKENS = {
-  BG_MAIN: '#1f1f1f',
-  BG_SIDEBAR: '#1f1f1f',
-  BG_ROW_HOVER: '#2d2e30',
-  TEXT_PRIMARY: '#e8eaed',
-  TEXT_SECONDARY: '#9aa0a6',
-  ACCENT_BLUE: '#8ab4f8',
-  BUTTON_BLUE: '#1a73e8',
-  FAB_TEAL: '#00BCD4',
-  ACTIVE_PILL: 'rgba(138,180,248,0.12)',
-};
+/**
+ * @aero-vi/aero-ui
+ * AeroMail UI Component Library
+ * @version 2.0.0
+ *
+ * Exports:
+ * - Data model types (AeroMessage, AeroThread, AeroFolder, etc.)
+ * - Component prop interfaces (all 19 components)
+ * - Design tokens (colors, typography, spacing, shadows, transitions)
+ * - Utility functions (getAvatarColor)
+ */
+
+// Data model types
+export * from './types';
+
+// Component prop interfaces
+export * from './components';
+
+// Design tokens & utilities
+export {
+  DESIGN_TOKENS,
+  DARK_COLORS,
+  LIGHT_COLORS,
+  AVATAR_COLORS,
+  LABEL_COLORS,
+  TYPOGRAPHY,
+  SPACING,
+  DIMENSIONS,
+  BORDER_RADIUS,
+  SHADOWS,
+  TRANSITIONS,
+  getAvatarColor,
+} from './tokens';
+
+// Library version
+export const AERO_UI_VERSION = '2.0.0';
